@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="shortcut icon" href="/img/mdarc-icon.ico" type="image/x-icon">
+        <title>MDARC Event Manager</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+            <div class="container">
+                <a href="#" class="navbar-brand">MDARC Event Manager</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#login">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#questions" class="nav-link">Questions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#instructors" class="nav-link">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Showcase -->
+        <section class="bg-dark text-light p-2 p-lg-3 text-center text-sm-start">
+            <div class="container">
+                <div class="d-sm-flex align-items-center justify-content-between">
+                    <div>
+                        <h1>MDARC <span class="text-warning">Event Manager</span> </h1>
+                        <p class="lead my-4">
+                            Access this portal for MDARC (<a href="http://mdarc.org" target="_blank" class="text-decoration-none text-success text-white fst-italic">Mount Diablo Amateur Radio Club</a>) related events in case you would like to know more about them, but especially if you would like to participate as a guest or vendor.
+                        </p>
+                        <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Register</button>
+                    </div>
+                    <img class="img-fluid w-25 d-none d-sm-block" src="img/msg.svg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!--Newsletter-->
+        <section class="bg-primary text-light p-5">
+            <div class="container">
+                <div class="d-md-flex justify-content-between align-items-center">
+                    <h3 class="mb-3 mb-md-0">Signup for newsletter</h3>
+
+                    <div class="input-group news-input">
+                        <input type="text" class="form-control" placeholder="Enter Email">
+                        <button class="btn btn-dark btn-lg" type="button" id="button-addon2">Sign Up</button>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Learn Sections-->
+        <section class="p-5">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-md">
+                        <img src="img/edu.svg" class="img-fluid w-75" alt="">
+                    </div>
+                    <div class="col-md p-5">
+                        <h2>Current MDARC Events</h2>
+                        <p class="lead">
+                            * Pacificon - Ham Radio Convention in San Ramon, CA 94520
+                        </p>
+                        <p>
+                            Register early either as a guest or vendor. More info here:
+                        </p>
+                        <p class="lead">
+                            * MDARC Membership Renewal for members
+                        </p>
+                        <p>
+                            Don't need any account on this portal. If you need renew your MDARC membership, click here:
+                        </p>
+                        <p class="lead">
+                            * Become MDARC member
+                        </p>
+                        <p>
+                            If you would like to become MDARC member niether you need an account on this portal. Click on the "New Member" link if you would like to find out more:
+                        </p>
+                    </div>
+            </div>
+        </section>
+
+        <section id="questions" class="p-5 bg-dark text-light">
+            <div class="container">
+                <h2 class="text-center mb-4 mt-3">Frequently Asked Questions</h2>
+                <div class="accordion accordion-flush text-dark">
+                    <!--Item 1-->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-one">
+                          Where exactly are you located
+                        </button>
+                      </h2>
+                      <div id="question-one" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id temporibus iure praesentium consequuntur nobis quod illo facere rerum. Dolorem, neque. Asperiores fugiat dignissimos est quibusdam numquam sed non illo nulla id debitis dolorem doloremque deleniti ipsam incidunt, mollitia minus quos! Fugiat maiores fugit ullam, quas cupiditate labore numquam harum quia.
+                        </div>
+                      </div>
+                    </div>
+                    <!--Item 2-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two">
+                            How much does it cost to attend
+                          </button>
+                        </h2>
+                        <div id="question-two" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+                          <div class="accordion-body">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id temporibus iure praesentium consequuntur nobis quod illo facere rerum. Dolorem, neque. Asperiores fugiat dignissimos est quibusdam numquam sed non illo nulla id debitis dolorem doloremque deleniti ipsam incidunt, mollitia minus quos! Fugiat maiores fugit ullam, quas cupiditate labore numquam harum quia.
+                          </div>
+                        </div>
+                      </div>
+                    <!--Item 3-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-three">
+                            What do I need to know
+                          </button>
+                        </h2>
+                        <div id="question-three" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+                          <div class="accordion-body">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id temporibus iure praesentium consequuntur nobis quod illo facere rerum. Dolorem, neque. Asperiores fugiat dignissimos est quibusdam numquam sed non illo nulla id debitis dolorem doloremque deleniti ipsam incidunt, mollitia minus quos! Fugiat maiores fugit ullam, quas cupiditate labore numquam harum quia.
+                          </div>
+                        </div>
+                      </div>
+                      <!--Item 4-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-four">
+                            How do I sign up
+                          </button>
+                        </h2>
+                        <div id="question-four" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+                          <div class="accordion-body">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id temporibus iure praesentium consequuntur nobis quod illo facere rerum. Dolorem, neque. Asperiores fugiat dignissimos est quibusdam numquam sed non illo nulla id debitis dolorem doloremque deleniti ipsam incidunt, mollitia minus quos! Fugiat maiores fugit ullam, quas cupiditate labore numquam harum quia.
+                          </div>
+                        </div>
+                      </div>
+                      <!--Item 5-->
+                    <div class="accordion-item mb-5">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-five">
+                            Vendor Opportunities
+                          </button>
+                        </h2>
+                        <div id="question-five" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+                          <div class="accordion-body">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id temporibus iure praesentium consequuntur nobis quod illo facere rerum. Dolorem, neque. Asperiores fugiat dignissimos est quibusdam numquam sed non illo nulla id debitis dolorem doloremque deleniti ipsam incidunt, mollitia minus quos! Fugiat maiores fugit ullam, quas cupiditate labore numquam harum quia.
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+        </section>
+
+        <section class="p-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md">
+                        <h2 class="text-center mb-4">Contact Info</h2>
+                        <ul class="list-group list-group-flush lead">
+                            <li class="list-group-item">
+                                <span class="fw-bold">Address: </span>P.O. Box 23222, Pleasant Hill, CA 94523
+                            </li>
+                            <li class="list-group-item">
+                                General Info email: </span>info@mdarc.org
+                            </li>
+                            <li class="list-group-item">
+                                Events Email: </span>events@jlkconsulting.info
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md">
+                       <div id="map">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="p-5 bg-dark text-white text-center position-relative">
+            <div class="container">
+                <p class="lead">Copyright &copy; MDARC 1947-2022</p>
+                <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                    <i class="bi bi-arrow-up-circle h1"></i>
+                </a>
+            </div>
+        </footer>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Register</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="lead">Register for User Account</p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="first-name" class="col-form-label">
+                                First Name
+                            </label>
+                            <input type="text" class="form-control" id="first-name"/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="last-name" class="col-form-label">
+                                Last Name
+                            </label>
+                            <input type="text" class="form-control" id="last-name"/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="col-form-label">
+                                Email
+                            </label>
+                            <input type="text" class="form-control" id="email"/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="col-form-label">
+                                Phone
+                            </label>
+                            <input type="text" class="form-control" id="phone"/>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary">Register</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- User login -->
+        <div class="modal fade" id="login" tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">User Login</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+      <form action="#" method="post">
+        <div class="modal-body">
+            <p class="lead">Enter your Username and Password</p>
+                <div class="mb-3">
+                    <label for="user" class="col-form-label">
+                        Username
+                    </label>
+                    <input type="text" class="form-control" id="user" name="user" placeholder="Enter Username"/>
+                </div>
+                <div class="mb-3">
+                    <label for="pass" class="col-form-label">
+                        Password
+                    </label>
+                    <input type="password" class="form-control" id="pass" name="pass" placeholder="Enter Password"/>
+                </div>
+                <div class="mb-3">
+                  <p><small>Lost password? Click <a href="#" data-bs-toggle="modal" data-bs-target="#reset">here</a>
+                </div>
+        </div>
+        <div class="modal-footer">
+        <button type="submit" class="btn btn-primary"> Submit </button>
+        </form>
+        </div>
+    </div>
+    </div>
+</div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+        <script>
+            mapboxgl.accessToken = 'pk.eyJ1IjoibGVob3MyNCIsImEiOiJja3ZxM29qMDBlbzRmMnBtbmRsNTg4cHY3In0.aRRDqiYJVURWAR3hfX0-1g';
+            var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v11',
+            center: [-122.021819, 37.987936],
+            zoom: 12,
+            });
+        </script>
+    </body>
+</html>
